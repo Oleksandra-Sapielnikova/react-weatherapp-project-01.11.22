@@ -24,12 +24,17 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* .Weather img {
   height: 64px;
   width: 64px;
   margin-right: 10px;
   display: inline-block;
-}
+} it's for the image, canvas is for the animated icons*/
 
 .Weather .temperature {
   color: rgb(32, 33, 36);
